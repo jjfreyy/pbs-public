@@ -1,0 +1,1 @@
+<?php if (empty($this->session->username) || $this->pbs->tuser_get($this->session->username)->num_rows() == 0) redirect('login');
